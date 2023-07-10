@@ -23,14 +23,13 @@ extension ViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let vc = storyboard?.instantiateViewController(identifier: "expanded") as! ExpandedViewController
+        vc.book = books[indexPath.row]
         
-        let cell = tableView.cellForRow(at: (indexPath))
-        vc.titleText = cell?.textLabel?.text
         present(vc, animated: true, completion: nil)
     }
 }
 
-extension ViewController: UITableViewDataSource{
+extension ViewController: UITableViewDataSource {
     
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1

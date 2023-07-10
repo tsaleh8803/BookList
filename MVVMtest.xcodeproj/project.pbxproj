@@ -105,8 +105,6 @@
 		04D52E6F2A56BCD500E3BC03 /* MVVMtest */ = {
 			isa = PBXGroup;
 			children = (
-				04D52EA22A56BEFE00E3BC03 /* ViewModel */,
-				04D52EA12A56BEF700E3BC03 /* View */,
 				04D52EA02A56BEEE00E3BC03 /* Model */,
 				04D52E702A56BCD500E3BC03 /* AppDelegate.swift */,
 				04D52E762A56BCD500E3BC03 /* Main.storyboard */,
@@ -144,20 +142,6 @@
 				04D52EA32A56BF0E00E3BC03 /* Book.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		04D52EA12A56BEF700E3BC03 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		04D52EA22A56BEFE00E3BC03 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
